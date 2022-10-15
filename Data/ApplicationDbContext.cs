@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using NidhisRuler.Models;
 
 namespace NidhisRuler.Data
 {
@@ -12,5 +13,6 @@ namespace NidhisRuler.Data
             : base(options)
         {
         }
+        public DbSet<NidhisRuler.Models.Ruler> Ruler { get; set; }
     }
 }
