@@ -80,7 +80,7 @@ namespace NidhisRuler.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Type,Shape,Material,Measurement,Color,Use,Price")] Ruler ruler)
+        public async Task<IActionResult> Create([Bind("Id,Type,Shape,Material,Measurement,Color,Use,Price,Rating")] Ruler ruler)
         {
             if (ModelState.IsValid)
             {
@@ -112,7 +112,7 @@ namespace NidhisRuler.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Type,Shape,Material,Measurement,Color,Use,Price")] Ruler ruler)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Type,Shape,Material,Measurement,Color,Use,Price,Rating")] Ruler ruler)
         {
             if (id != ruler.Id)
             {

@@ -105,3 +105,7 @@ Started new one again
 2022-10-15
 10:00 AM
 Repeat all the steps till part 8..
+This part endded successfully, though did it very carefully..
+
+Part 9 for adding new field and validations also done..
+ trying to add About us page link and display its contents..

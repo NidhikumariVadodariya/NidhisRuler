@@ -31,7 +31,8 @@ namespace NidhisRuler.Models
                         Measurement = "Centimetre",
                         Color = "Yellow",
                         Use = "School purpose",
-                        Price = 2.00M
+                        Price = 2.00M,
+                        Rating = 1.5M
                     },
                     new Ruler
                     {
@@ -41,7 +42,8 @@ namespace NidhisRuler.Models
                         Measurement = "Centimetre",
                         Color = "Yellow",
                         Use = "School purpose",
-                        Price = 2.00M
+                        Price = 2.00M,
+                        Rating = 1.5M
                     },
                     new Ruler
                     {
@@ -51,7 +53,8 @@ namespace NidhisRuler.Models
                         Measurement = "Meter",
                         Color = "White",
                         Use = "Mechanical Class",
-                        Price = 3.05M
+                        Price = 3.05M,
+                        Rating = 1.5M
                     },
                     new Ruler
                     {
@@ -61,7 +64,8 @@ namespace NidhisRuler.Models
                         Measurement = "Meter",
                         Color = "White",
                         Use = "Mechanical Class",
-                        Price = 3.05M
+                        Price = 3.05M,
+                        Rating = 1.5M
                     },
                     new Ruler
                     {
@@ -71,7 +75,8 @@ namespace NidhisRuler.Models
                         Measurement = "Centimetre",
                         Color = "White",
                         Use = "School purpose",
-                        Price = 2.59M
+                        Price = 2.59M,
+                        Rating = 1.5M
                     }
                 );
                 context.SaveChanges();
