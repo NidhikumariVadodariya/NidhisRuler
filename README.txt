@@ -108,4 +108,8 @@ Repeat all the steps till part 8..
 This part endded successfully, though did it very carefully..
 
 Part 9 for adding new field and validations also done..
- trying to add About us page link and display its contents..
+trying to add About us page link and display its contents..
+
+Half information added..
+
+take break..
