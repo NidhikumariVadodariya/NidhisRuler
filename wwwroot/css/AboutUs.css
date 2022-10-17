@@ -11,10 +11,10 @@ img {
     padding: 5px;
 }
 
-    img:nth-child(3n+1) {
-        float: left;
-        padding: 5px;
-    }
+img:nth-child(3n+1) {
+    float: left;
+    padding: 5px;
+}
 
 h1 {
     font-family: Algerian;
@@ -25,5 +25,9 @@ h1 {
 h2 {
     font-family: Algerian;
     text-decoration: underline;
+}
+
+p {
+    color:gray;
 }
 
