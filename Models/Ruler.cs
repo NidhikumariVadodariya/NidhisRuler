@@ -6,10 +6,11 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.AspNetCore.Mvc.Rendering;
 
+// Set all the attributes or properties that needed to define Ruler with the validations and view model
 
 namespace NidhisRuler.Models
 {
-    public class Ruler
+    public class Ruler 
     {
         public int Id { get; set; }
 
@@ -41,7 +42,7 @@ namespace NidhisRuler.Models
         public decimal Price { get; set; }
 
         [Range(1, 5)]
-        public decimal Rating { get; set; }
+        public decimal Rating { get; set; } // Last added in part 8 manually that how to add new field
     }
 
     public class RulerShapeViewModel

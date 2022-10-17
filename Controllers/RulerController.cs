@@ -14,7 +14,7 @@ namespace NidhisRuler.Controllers
             return View();
         }
 
-        public IActionResult Welcome(string name, int numTimes = 1)
+        public IActionResult Welcome(string name, int numTimes = 1) // Add method so that it can show Hello message with the name (tried from tutorial)
         {
             ViewData["Message"] = "Hello " + name;
             ViewData["NumTimes"] = numTimes;

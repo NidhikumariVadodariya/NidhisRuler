@@ -23,7 +23,7 @@ namespace NidhisRuler.Controllers
             return View();
         }
 
-        public IActionResult AboutUs()
+        public IActionResult AboutUs() // Add method so that about us page can see (linked with other pages)
         {
             return View();
         }

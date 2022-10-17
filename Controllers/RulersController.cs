@@ -8,19 +8,21 @@ using Microsoft.EntityFrameworkCore;
 using NidhisRuler.Data;
 using NidhisRuler.Models;
 
+// Added Rulers controllers that controls CRUD pages
+
 namespace NidhisRuler.Controllers
 {
     public class RulersController : Controller
     {
         private readonly ApplicationDbContext _context;
 
-        public RulersController(ApplicationDbContext context)
+        public RulersController(ApplicationDbContext context) // Database migrated in ApplicationDbContext
         {
             _context = context;
         }
 
         // GET: Rulers
-        public async Task<IActionResult> Index(string rulerShape, string searchString)
+        public async Task<IActionResult> Index(string rulerShape, string searchString) //Added query for search the particular string
         {
             // Use LINQ to get list of genres.
             IQueryable<string> shapeQuery = from r in _context.Ruler

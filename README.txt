@@ -2,6 +2,8 @@
 5:58 PM
 Started Assignment bit late due to health seriousness...
 Create new project and give name NidhisRuler..
+Create READEME file for writing progress of the project..
+Create GitHub link for saving all the data and can be cloned when needed..
 Added controller "RulerController"..
 Got failed to execute and had errors in executing controller functions..
 
@@ -40,7 +42,7 @@ Updated properties..
 took break..
 
 5:09 PM
-Update NuGet packages and Added..
+Update NuGet packages and Added that necessary..
 Create context file and dependancy Injection of databse..
 Scaffolled Ruler pages..
 
@@ -118,3 +120,7 @@ Added more..
 
 2022-10-16
 Add images and font style and make new about us css did link and update it..
+
+2022-10-17
+8:30 AM
+Done all the things including comments..

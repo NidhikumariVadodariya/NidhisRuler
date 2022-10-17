@@ -6,6 +6,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using NidhisRuler.Data;
 
+// Data Seeded for my Ruler's properties
+
 namespace NidhisRuler.Models
 {
     public class SeedData
@@ -32,7 +34,7 @@ namespace NidhisRuler.Models
                         Color = "Yellow",
                         Use = "School purpose",
                         Price = 2.00M,
-                        Rating = 1.5M
+                        Rating = 1.5M // Last added manually while part 8 for adding new field manually
                     },
                     new Ruler
                     {
