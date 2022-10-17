@@ -114,4 +114,7 @@ Half information added..
 
 take break..
 
-Addeed more..
+Added more..
+
+2022-10-16
+Add images and font style and make new about us css did link and update it..

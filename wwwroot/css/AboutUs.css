@@ -1,0 +1,29 @@
+﻿body {
+    background-color: pink;
+    font-family: 'Comic Sans MS';
+}
+
+img {
+    float: right;
+    height:250px;
+    width:400px;
+    border-block:3px dotted black;
+    padding: 5px;
+}
+
+    img:nth-child(3n+1) {
+        float: left;
+        padding: 5px;
+    }
+
+h1 {
+    font-family: Algerian;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+h2 {
+    font-family: Algerian;
+    text-decoration: underline;
+}
+
